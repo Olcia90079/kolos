@@ -8,7 +8,6 @@ const EmployeeList = () => {
     const { state, dispatch } = useContext(EmployeeContext);
 
     return (
-        //when employee list is empty, display "No employees" message
         <div>
             <h1>Lista pracowników:</h1>
             {state.length === 0 ? (
