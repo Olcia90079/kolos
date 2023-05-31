@@ -17,8 +17,16 @@ const Statistics = () => {
     return (
         <div>
             <h1>Statystyki:</h1>
-            <p>Średnia pensja: {averageSalary.toFixed(2)}</p>
-            <p>Średni wiek: {averageAge.toFixed(2)}</p>
+            {isNaN(averageSalary) ? (
+                <p>Średnia pensja: brak danych</p>
+            ) : (
+                <p>Średnia pensja: {averageSalary.toFixed(2)}</p>
+            )}
+            {isNaN(averageAge) ? (
+                <p>Średni wiek: brak danych</p>
+            ) : (
+                <p>Średni wiek: {averageAge.toFixed(2)}</p>
+            )}
             <hr />
         </div>
     );
