@@ -1,0 +1,18 @@
+.employee-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .employee-card {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  

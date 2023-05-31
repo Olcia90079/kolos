@@ -1,0 +1,13 @@
+[
+    {"id": 1, "name": "Alfred", "age": 25, "occupation": "Engineer", "salary": 5000},
+    {"id": 2, "name": "Barbara", "age": 34, "occupation": "Doctor", "salary": 7000},
+    {"id": 3, "name": "Charles", "age": 45, "occupation": "Teacher", "salary": 4000},
+    {"id": 4, "name": "Diana", "age": 29, "occupation": "Architect", "salary": 6000},
+    {"id": 5, "name": "Edward", "age": 32, "occupation": "Chef", "salary": 4500},
+    {"id": 6, "name": "Felicity", "age": 38, "occupation": "Scientist", "salary": 7500},
+    {"id": 7, "name": "George", "age": 43, "occupation": "Manager", "salary": 8000},
+    {"id": 8, "name": "Hannah", "age": 27, "occupation": "Artist", "salary": 5500},
+    {"id": 9, "name": "Igor", "age": 36, "occupation": "Programmer", "salary": 6500},
+    {"id": 10, "name": "Jessica", "age": 31, "occupation": "Designer", "salary": 6000}
+]
+
