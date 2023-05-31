@@ -43,8 +43,9 @@ const EmployeeForm = () => {
             <Formik
                 initialValues={{ name: "", age: "", occupation: "", salary: "" }}
                 validate={validate}
-                onSubmit={(values) => {
+                onSubmit={(values, { resetForm }) => {
                     dispatch({ type: "ADD_EMPLOYEE", payload: { id: uuidv4(), ...values } });
+                    resetForm();
                 }}
             >
                 {() => (
